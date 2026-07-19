@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -304,86 +304,11 @@
                 </div>
                 <p class="cta-hint">Your journey starts here</p>
 
-                <!-- Export Buttons In-flow -->
-                <div style="margin-top: 40px; display: flex; justify-content: center; gap: 15px;" data-html2canvas-ignore="true">
-                    <button id="exportBtn" class="export-btn" style="position: relative; z-index: 50;">
-                        <i class="fa-solid fa-image"></i> Tải ảnh JPG
-                    </button>
-                    <button id="exportPdfBtn" class="export-btn btn-dark" style="position: relative; z-index: 50;">
-                        <i class="fa-solid fa-file-pdf"></i> Tải bản PDF
-                    </button>
-                </div>
-            </div>
+                            </div>
         </section>
         
     </div>
-
-    <!-- Scripts for Export -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script>
-        // JPG Export
-        document.getElementById('exportBtn').addEventListener('click', function() {
-            const btn = this;
-            const originalText = btn.innerHTML;
-            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Đang xuất...';
-            btn.disabled = true;
-
-            const targetElement = document.querySelector('.infographic-container');
-            
-            html2canvas(targetElement, {
-                scale: 2, 
-                useCORS: true,
-                backgroundColor: "#f8f9fa",
-                logging: false
-            }).then(canvas => {
-                const link = document.createElement('a');
-                link.download = 'Techcombank_Passport_To_Growth.jpg';
-                link.href = canvas.toDataURL('image/jpeg', 0.9);
-                link.click();
-                
-                btn.innerHTML = originalText;
-                btn.disabled = false;
-            }).catch(err => {
-                console.error("Export Error:", err);
-                alert("Đã xảy ra lỗi khi xuất ảnh JPG.");
-                btn.innerHTML = originalText;
-                btn.disabled = false;
-            });
-        });
-
-        // PDF Export
-        document.getElementById('exportPdfBtn').addEventListener('click', function() {
-            const btn = this;
-            const originalText = btn.innerHTML;
-            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Đang xuất...';
-            btn.disabled = true;
-
-            const targetElement = document.querySelector('.infographic-container');
-            
-            html2canvas(targetElement, {
-                scale: 2, 
-                useCORS: true,
-                backgroundColor: "#f8f9fa",
-                logging: false
-            }).then(canvas => {
-                const imgData = canvas.toDataURL('image/jpeg', 0.95);
-                
-                // Tạo PDF 1 trang siêu dài (kích thước chính xác bằng Canvas) để không bị cắt trang
-                const pdf = new jspdf.jsPDF('p', 'px', [canvas.width, canvas.height]);
-                pdf.addImage(imgData, 'JPEG', 0, 0, canvas.width, canvas.height);
-                pdf.save('Techcombank_Passport_To_Growth.pdf');
-                
-                btn.innerHTML = originalText;
-                btn.disabled = false;
-            }).catch(err => {
-                console.error("Export Error:", err);
-                alert("Đã xảy ra lỗi khi xuất PDF.");
-                btn.innerHTML = originalText;
-                btn.disabled = false;
-            });
-        });
-    </script>
 </body>
 </html>
+
 
