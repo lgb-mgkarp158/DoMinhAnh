@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techcombank Campus Ambassador - Passport To Growth</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="infographic-container">
+        <!-- GLOBAL DECORATIONS (Spanning across sections) -->
+        <svg class="flight-path" viewBox="0 0 600 2400" preserveAspectRatio="none">
+            <path d="M 100 0 C 150 400, 450 600, 300 1200 C 150 1800, 500 2000, 200 2400" 
+                  fill="none" stroke="rgba(229,0,25,0.15)" stroke-width="3" stroke-dasharray="10 10" />
+            <path d="M 500 0 C 450 300, 150 700, 350 1400 C 550 2100, 100 2200, 400 2400" 
+                  fill="none" stroke="rgba(212,175,55,0.15)" stroke-width="2" stroke-dasharray="5 15" />
+        </svg>
+
+        <i class="fa-solid fa-plane flight-icon f-icon-1"></i>
+        <i class="fa-solid fa-plane flight-icon f-icon-2"></i>
+        <i class="fa-solid fa-plane flight-icon f-icon-3"></i>
+
+        <div class="global-watermark wm-1">PASSPORT</div>
+        <div class="global-watermark wm-2">GROWTH</div>
+
+        <!-- ═══════════ SECTION 1: COVER ═══════════ -->
+        <section class="s-cover">
+            <div class="ticket-card">
+                <div class="tc-top">
+                    <img src="data:image/jpeg;base64,

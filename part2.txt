@@ -1,0 +1,127 @@
+" alt="Ambassadors" class="tc-hero-img">
+                    <div class="tc-overlay"></div>
+                    <div class="tc-logo"><i class="fa-solid fa-layer-group"></i> TECHCOMBANK</div>
+                    <h1 class="cover-h1">CAMPUS<br>AMBASSADOR</h1>
+                    <div class="tc-year">— 2026 —</div>
+                </div>
+                <div class="tc-bottom">
+                    <div class="barcode"></div>
+                    <div class="tc-info">
+                        <div>
+                            <span>PASSENGER</span>
+                            <strong>The Best Version of Yourself</strong>
+                        </div>
+                        <div style="text-align: right;">
+                            <span>CLASS</span>
+                            <strong class="tc-highlight">FIRST <i class="fa-solid fa-star"></i></strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quote-box">
+                "Your journey begins with one application."
+            </div>
+        </section>
+
+        <div class="paperclip pc-1"></div>
+
+        <!-- STORY BOARD -->
+        <div class="story-board">
+            <div class="story-pin"><i class="fa-solid fa-thumbtack"></i></div>
+            <div class="story-content">
+                <p>Nếu có ai hỏi mình trước đây là người như thế nào, chắc mình sẽ trả lời là khá nhát.</p>
+                <p>Mình từng là kiểu người rất ngại thử những điều mới. Mỗi lần thấy một chương trình tuyển Đại sứ hay hoạt động ngoại khóa, mình đều rất thích, đọc hết thông tin, thậm chí tưởng tượng nếu được tham gia thì sẽ thế nào. Nhưng rồi cuối cùng lại tự nói với bản thân: <em>"Chắc mình không hợp đâu."</em></p>
+                <p>Và thế là... mình tự loại mình trước cả khi người khác có cơ hội làm điều đó.</p>
+                <p>Đến khi biết đến Techcombank Campus Ambassador, mình cũng không khác mấy. Mình mở form đăng ký lên rồi lại tắt. Mở lên, tắt xuống vài lần.</p>
+                <p>Cuối cùng mình nghĩ đơn giản thế này:<br>
+                <strong>"Nếu không thử thì chắc chắn mình sẽ không có gì. Còn thử thì biết đâu lại được."</strong></p>
+                <p>Thế là mình bấm Apply. Đó là một quyết định nhỏ, nhưng lại mở ra cho mình một hành trình rất khác.</p>
+                <p>Mình không trở nên tự tin ngay lập tức. Mình vẫn có những lúc run khi nhận nhiệm vụ mới, vẫn có lúc bí ý tưởng, vẫn có lúc nghĩ "hay để người khác làm sẽ tốt hơn". Nhưng càng tham gia, mình càng nhận ra mình làm được nhiều hơn mình từng nghĩ.</p>
+                <p>Mình quen thêm những người bạn rất giỏi, được học từ các anh chị có nhiều kinh nghiệm, được lắng nghe những góc nhìn mới và cũng có cơ hội chia sẻ ý kiến của bản thân nhiều hơn.</p>
+                <p>Điều mình thích nhất không phải là một chứng nhận hay một dòng trong CV. Mà là cảm giác mình đã dám bước ra khỏi vùng an toàn của chính mình. Nếu ví hành trình này như một cuốn hộ chiếu, thì mỗi trải nghiệm đều giống như một con dấu.</p>
+                
+                <ul class="story-list">
+                    <li><i class="fa-solid fa-location-dot"></i> Có con dấu của sự tự tin.</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Có con dấu của những người bạn mới.</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Có con dấu của những lần dám thử dù vẫn còn sợ.</li>
+                </ul>
+
+                <p>Nhìn lại mới thấy, hóa ra điều giới hạn mình suốt thời gian qua không phải là năng lực, mà là suy nghĩ "mình không làm được."</p>
+                <p>Nếu bạn cũng đang phân vân trước nút Apply, mình chỉ muốn nói một câu mà mình cũng từng tự nhủ với bản thân:</p>
+                <p class="story-highlight">"Đừng đợi đến khi đủ giỏi mới bắt đầu. Hãy bắt đầu để mình trở nên giỏi hơn."</p>
+                <p style="text-align: center; margin-top: 15px; font-weight: 600;">Biết đâu, tấm Passport to Growth của bạn cũng sẽ bắt đầu từ chính cú click đó. 💙🛂</p>
+            </div>
+        </div>
+
+        <div class="paperclip pc-1" style="top: 1040px; right: 20px;"></div>
+
+        <!-- ═══════════ SECTION 2: DEPARTURE ═══════════ -->
+        <section class="s-departure">
+            <div class="sec-label"><span>01</span></div>
+            <h2 class="sec-title">DEPARTURE</h2>
+            <p class="sec-subtitle">Step outside your comfort zone</p>
+
+            <div class="fork">
+                <div class="fork-option fo-left">
+                    <i class="fa-solid fa-bed"></i>
+                    <h3>Stay in your<br>comfort zone</h3>
+                    <p>Nothing changes</p>
+                </div>
+                <div class="fork-vs">OR</div>
+                <div class="fork-option fo-right">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <h3>APPLY</h3>
+                    <p>Unlock potential</p>
+                    <div class="overlap-stamp st-approved">APPROVED</div>
+                </div>
+            </div>
+
+            <div class="note-box">
+                Đừng để nỗi sợ thất bại cản bước.<br>
+                <strong>Điều quan trọng là bạn dám dấn thân làm lại.</strong>
+            </div>
+            
+            <div class="timeline-dots">
+                <span></span><span></span><span></span><span></span>
+            </div>
+        </section>
+
+        <div class="paperclip pc-2"></div>
+
+        <!-- ═══════════ SECTION 3: STAMPS ═══════════ -->
+        <section class="s-stamps">
+            <div class="sec-label"><span>02</span></div>
+            <h2 class="sec-title">PASSPORT STAMPS</h2>
+            <p class="sec-subtitle">Milestones of your growth</p>
+
+            <div class="stamp-layout">
+                <!-- Span 2 Left -->
+                <div class="st-card st-card-span2-left">
+                    <div class="st-icon-wrap"><i class="fa-solid fa-user-group"></i></div>
+                    <div class="st-content">
+                        <h3>Communication</h3>
+                        <p>Học cách làm việc, tương tác với sinh viên và anh chị Leader.</p>
+                        <span class="st-tag"><i class="fa-solid fa-check"></i> Expand network</span>
+                    </div>
+                </div>
+
+                <!-- Span 2 Right -->
+                <div class="st-card st-card-span2-right" style="border-color: var(--gold); background: #fffdf5;">
+                    <div class="st-icon-wrap" style="background: var(--gold);"><i class="fa-solid fa-users-viewfinder"></i></div>
+                    <div class="st-content">
+                        <h3 style="color: var(--gold);">Teamwork</h3>
+                        <p>Đồng hành cùng những người bạn tài năng từ các trường Đại học khác.</p>
+                        <span class="st-tag" style="color: var(--gold); background: rgba(212,175,55,0.1);"><i class="fa-solid fa-check"></i> Collaborative mindset</span>
+                    </div>
+                    <div class="overlap-stamp st-exclusive" style="color: var(--gold); border-color: var(--gold);">TOP TIER</div>
+                </div>
+
+                <!-- Highlight Box -->
+                <div class="st-highlight">
+                    <div class="st-hl-text">
+                        <h3>Your journey changes destination.</h3>
+                        <p>This one changes <strong>you</strong>.</p>
+                    </div>
+                    <div class="st-hl-img-wrap">
+                        <img src="data:image/jpeg;base64,

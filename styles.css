@@ -17,10 +17,11 @@
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-    font-family: 'Inter', sans-serif;
     background: #e5e7eb; /* Outer background */
     display: flex; justify-content: center;
     padding: 30px 0; -webkit-font-smoothing: antialiased;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
 }
 
 .infographic-container {
@@ -375,21 +376,70 @@ section {
     border-top: 1px dashed rgba(0,0,0,0.1);
     border-bottom: 1px dashed rgba(0,0,0,0.1);
 }
-.eq-icon { font-size: 20px; color: rgba(229,0,25,0.2); margin-bottom: 8px; display: block; }
-.end-quote p { font-family: 'Playfair Display', serif; font-size: 16px; font-weight: 700; font-style: italic; color: var(--txt); }
 
-.cta-wrap { text-align: center; margin-top: 20px; }
-.cta-btn {
-    background: var(--red); color: #fff; border: none;
-    padding: 18px 45px; border-radius: 50px;
-    font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 900;
-    cursor: pointer; box-shadow: 0 8px 25px rgba(229,0,25,0.3);
-    display: inline-block; letter-spacing: 1px; text-align: center;
+/* ─── STORY BOARD ─── */
+.story-board {
+    background: #fff;
+    border-radius: 24px;
+    padding: 40px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.03);
+    z-index: 10;
 }
-.cta-btn i {
-    margin-left: 10px;
+.story-pin {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 28px;
+    color: var(--red);
+    text-shadow: 0 4px 10px rgba(229,0,25,0.3);
+    z-index: 5;
 }
-.cta-hint { font-size: 10px; color: var(--txt-mute); margin-top: 12px; letter-spacing: 2px; font-weight: 700; text-transform: uppercase; }
+.story-content {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--ink);
+    text-align: left;
+}
+.story-content p {
+    margin-bottom: 14px;
+}
+.story-content p:last-child {
+    margin-bottom: 0;
+}
+.story-list {
+    list-style: none;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+.story-list li {
+    margin-bottom: 10px;
+    position: relative;
+    font-weight: 600;
+}
+.story-list li i {
+    color: var(--red);
+    position: absolute;
+    left: -20px;
+    top: 5px;
+    font-size: 14px;
+}
+.story-highlight {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--red);
+    text-align: center;
+    margin: 30px 0 !important;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    line-height: 1.5;
+}
 
 /* ─── RESPONSIVE ─── */
 @media (max-width: 480px) {
@@ -401,4 +451,5 @@ section {
     .stamp-layout, .souv-grid { gap: 10px; }
     .st-card-span2-left { width: 100%; }
 }
+
 

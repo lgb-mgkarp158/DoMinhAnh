@@ -1,0 +1,91 @@
+" alt="Ambassadors" class="st-hl-img">
+                        <div class="overlap-stamp st-memories">MEMORIES</div>
+                    </div>
+                </div>
+
+                <!-- Normal Cards -->
+                <div class="st-card" style="border-color: #f59e0b;">
+                    <div class="st-icon-wrap" style="background: #f59e0b;"><i class="fa-solid fa-lightbulb"></i></div>
+                    <div class="st-content">
+                        <h3 style="color: #d97706;">Innovation</h3>
+                        <p>Được tự do sáng tạo và đề xuất ý tưởng đột phá.</p>
+                        <span class="st-tag" style="color: #d97706; background: rgba(245,158,11,0.1);"><i class="fa-solid fa-check"></i> Think outside the box</span>
+                    </div>
+                </div>
+
+                <div class="st-card" style="border-color: #8b5cf6;">
+                    <div class="overlap-stamp st-rare" style="color: #8b5cf6; border-color: #8b5cf6; transform: rotate(-15deg); top: -20px; left: -10px;">RARE STAMP</div>
+                    <div class="st-icon-wrap" style="background: #8b5cf6;"><i class="fa-solid fa-bolt"></i></div>
+                    <div class="st-content">
+                        <h3 style="color: #7c3aed;">Flexibility</h3>
+                        <p>Thích nghi với các tình huống và nhiệm vụ đa dạng.</p>
+                        <span class="st-tag" style="color: #7c3aed; background: rgba(139,92,246,0.1);"><i class="fa-solid fa-check"></i> Agile mindset</span>
+                    </div>
+                </div>
+
+                <!-- Span 2 Center -->
+                <div class="st-card st-card-span2-center">
+                    <div class="st-icon-wrap"><i class="fa-solid fa-crown"></i></div>
+                    <div class="st-content">
+                        <h3>Leadership</h3>
+                        <p>Dẫn dắt dự án, truyền cảm hứng cho cộng đồng sinh viên.</p>
+                        <span class="st-tag"><i class="fa-solid fa-check"></i> Inspire others</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="st-stats">
+                <div class="stat-item"><i class="fa-solid fa-calendar-days"></i> <strong>6 Months</strong> Journey</div>
+                <div class="stat-item"><i class="fa-solid fa-users"></i> <strong>50+</strong> Ambassadors</div>
+                <div class="stat-item"><i class="fa-solid fa-chart-line"></i> <strong>200%</strong> Growth Rate</div>
+            </div>
+            
+            <div class="overlap-stamp st-depart" style="left: -20px; bottom: 0; transform: rotate(15deg);">DEPARTING NOW</div>
+        </section>
+
+        <!-- ═══════════ SECTION 4: SOUVENIRS ═══════════ -->
+        <section class="s-souvenirs">
+            <div class="sec-label"><span>03</span></div>
+            <h2 class="sec-title">SOUVENIRS</h2>
+            <p class="sec-subtitle">What you bring back from the trip</p>
+
+            <div class="souv-grid">
+                <div class="souv-item">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span>CONFIDENCE</span>
+                </div>
+                <div class="souv-item">
+                    <i class="fa-solid fa-user-group"></i>
+                    <span>FRIENDS</span>
+                </div>
+                <div class="souv-item">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <span>OPPORTUNITIES</span>
+                </div>
+                <div class="souv-item">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span>SKILLS</span>
+                </div>
+                <div class="souv-item souv-full">
+                    <i class="fa-solid fa-star"></i>
+                    <span>MEMORIES</span>
+                </div>
+            </div>
+
+            <div class="end-quote">
+                <i class="fa-solid fa-quote-left eq-icon"></i>
+                <p>"The best souvenirs are the ones that stay with you forever."</p>
+            </div>
+
+            <div class="cta-wrap">
+                <div class="overlap-stamp st-depart">DEPARTING NOW</div>
+                <div class="cta-btn">
+                    APPLY NOW <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <p class="cta-hint">Your journey starts here</p>
+            </div>
+        </section>
+        
+    </div>
+</body>
+</html>
